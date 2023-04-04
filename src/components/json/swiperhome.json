@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "binaSekili":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679239331/swiperslide1_yndgro.jpg",
+        "binaAd":"Green Place , Bakı",
+        "binaMelumat": "Bina - 2 Otaq - 61m2 ",
+        "binaQiymet": "60.000 AZN"
+    },
+    {
+        "id":2,
+        "binaSekili":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679239331/swiperslide2_m2glwa.jpg",
+        "binaAd":"Green Place , Bakı",
+        "binaMelumat": "Bina - 3 Otaq - 75m2 ",
+        "binaQiymet": "80.000 AZN"
+    },
+    {
+        "id":3,
+        "binaSekili":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679239331/swiperslide3_m3v2jf.jpg",
+        "binaAd":"Green Place , Bakı",
+        "binaMelumat": "Bina - 4 Otaq - 101m2 ",
+        "binaQiymet": "160.000 AZN"
+    },
+    {
+        "id":4,
+        "binaSekili":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679239331/swiperslide4_jrsndi.jpg",
+        "binaAd":"Green Place , Bakı",
+        "binaMelumat": "Bina - 1 Otaq - 49m2 ",
+        "binaQiymet": "50.000 AZN"
+    }
+    
+    
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "yerlesdiyiYer":"Nərimanov, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/bina2_pftsy9.jpg",
+        "qiymet": "₼ 400,000",
+        "melumat": "Bina - 4 Otaq - 114m2"
+    },
+    {
+        "id":2,
+        "yerlesdiyiYer":"28 May, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/img4_jhraew.jpg",
+        "qiymet": "₼ 345,000",
+        "melumat": "Bina - 3 Otaq - 98m2"
+    },
+    {
+        "id":3,
+        "yerlesdiyiYer":"Gənclik, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/evqutu10_b5lqhx.jpg",
+        "qiymet": "₼ 480,200",
+        "melumat": "Bina - 4 Otaq - 150m2"
+    },
+    {
+        "id":4,
+        "yerlesdiyiYer":"Nərimanov, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/bina1_jka1dx.jpg",
+        "qiymet": "₼ 98,000",
+        "melumat": "Bina - 1 Otaq - 50m2"
+    },
+    {
+        "id":5,
+        "yerlesdiyiYer":"Gənclik, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/img6_rf7qi0.jpg",
+        "qiymet": "₼ 354,000",
+        "melumat": "Bina - 2 Otaq - 87m2"
+    },
+    {
+        "id":6,
+        "yerlesdiyiYer":"Gənclik, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/img7_cummor.jpg",
+        "qiymet": "₼ 85,000",
+        "melumat": "Bina - 3 Otaq - 100m2"
+    },
+    {
+        "id":7,
+        "yerlesdiyiYer":"28 May, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/evqutu2_wvhcce.jpg",
+        "qiymet": "₼ 92,000",
+        "melumat": "Bina - 2 Otaq - 90m2"
+    },
+    {
+        "id":8,
+        "yerlesdiyiYer":"Gənclik, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/img8_pl1iwl.jpg",
+        "qiymet": "₼ 400,000",
+        "melumat": "Bina - 4 Otaq - 120m2"
+    },
+    {
+        "id":9,
+        "yerlesdiyiYer":"28 May, Bakı",
+        "image":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679743640/img9_t0qv7y.jpg",
+        "qiymet": "₼ 380,000",
+        "melumat": "Bina - 3 Otaq - 112m2"
+    }
+]

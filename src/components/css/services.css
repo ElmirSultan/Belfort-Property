@@ -1,0 +1,43 @@
+.services {
+    padding: 5rem 3rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f1ec;
+}
+.services p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+.services h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #AC835D;
+    margin-bottom: 5rem;
+}
+.services .service-qutular{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 2rem;
+    max-width: 1240px;
+}
+.services .service-qutular .smart-box{
+    border: none;
+}
+.services .service-qutular .smart-box span{
+    color: #474747;
+    font-weight: 200;
+}
+
+@media(max-width:768px){
+    .services h1{
+        font-size: 1.8rem;
+    }
+    .services p{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,132 @@
+.contact{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7rem;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.contact p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.contact h2{
+    font-size: 6rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.contact .contact-input{
+    display: flex;
+    margin-top: 3rem;
+    width: 40rem;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.contact .contact-input input{
+    padding: 1rem;
+    width: 40rem;
+    outline: none;
+    border: 1px solid var(--main-color);
+    background-color: #000;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.contact button{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    transition: all .5s ease;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.contact button:hover{
+    box-shadow: 0px 0px 1.5rem #ffffffad;
+}
+
+@media(max-width:768px){
+    .contact p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .contact h2{
+        font-size: 3rem;
+        color: var(--main-color);
+        font-weight: 600;
+    }
+    .contact .contact-input{
+        display: flex;
+        margin-top: 3rem;
+        width: 20rem;
+        gap: 3rem;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .contact .contact-input input{
+        width: 30rem;
+        padding: 1rem;
+        outline: none;
+        border: 1px solid var(--main-color);
+        background-color: #000;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .contact button{
+        width: 15rem;
+        border: none;
+        background-color: var(--main-color);
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    
+}
+
+@media(max-width:316px){
+    .contact p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .contact h2{
+        font-size: 2rem;
+        color: var(--main-color);
+        font-weight: 600;
+    }
+    .contact .contact-input{
+        display: flex;
+        margin-top: 3rem;
+        width: 20rem;
+        gap: 3rem;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .contact .contact-input input{
+        width: 15rem;
+        padding: 1rem;
+        outline: none;
+        border: 1px solid var(--main-color);
+        background-color: #000;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .contact button{
+        width: 15rem;
+        border: none;
+        background-color: var(--main-color);
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    
+}

@@ -1,0 +1,89 @@
+.aboutUs .picture{
+    max-width: 1400px;
+    height: 100vh;
+    margin: 5rem auto;
+    background: url(../../assets/images/aboutus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root{
+    --main-color:#AC835D;
+    --white-color:#f9f1ec;
+  }
+.haqqimizda{
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.haqqimizda p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.haqqimizda h1{
+    font-size: 4rem;
+    color: #AC835D;
+    font-weight: 500;
+}
+.haqqimizda .box-container{
+    margin-top: 7rem;
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.haqqimizda .box-container .qutu{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 50rem;
+   
+}
+.haqqimizda .box-container .qutu img{
+    width: 100%;
+    transition: all .6s ease-in-out;
+}
+.haqqimizda .box-container .qutu .top-side{
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+}
+.haqqimizda .box-container .qutu img:hover{
+    transform: scale(1.05);
+}
+.haqqimizda .box-container .qutu p{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #f9f1ec;
+}
+.haqqimizda .box-container .qutu span{
+    font-size: 1.6rem;
+    color:#aaa ;
+    font-weight: 300;
+}
+@media(max-width:768px){
+    .aboutUs .picture{
+        display: none;
+    }
+    .haqqimizda p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .haqqimizda h1{
+        font-size: 2.3rem;
+        color: #AC835D;
+        font-weight: 500;
+    }
+    .haqqimizda .box-container .qutu p{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #f9f1ec;
+    }
+    .haqqimizda .box-container .qutu span{
+        font-size: 1.1rem;
+        color:#aaa ;
+        font-weight: 300;
+    }
+    
+}

@@ -1,0 +1,188 @@
+.standart-list{
+    text-align: center;
+}
+:root{
+    --main-color:#AC835D;
+    --white-color:#f9f1ec;
+  }
+.standart-list h1{
+    font-size: 5rem;
+    color:#AC835D ;
+    font-weight: 400;
+}
+.standart-list .box-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.standart-list .box-container a{
+    text-decoration: none;
+    color: #f9f1ec;
+}
+.standart-list .box-container .evqutu{
+    min-width: 40rem;
+    border-radius: 1rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff ;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+.standart-list .box-container .evqutu:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 1.5rem #f9f1ec;
+}
+.standart-list .box-container .evqutu .bottom-ev-qutu {
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.standart-list .box-container .evqutu .content{
+    font-size: 2.7rem;
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Tilt Prism', cursive;
+}
+.standart-list .box-container .evqutu.one{
+    background: url(../../assets/images/theone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.standart-list .box-container .evqutu.two{
+    background: url(../../assets/images/evqutu2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.three{
+    background: url(../../assets/images/evqutu3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.four{
+    background: url(../../assets/images/evqutu4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.five{
+    background: url(../../assets/images/evqutu5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.six{
+    background: url(../../assets/images/evqutu6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.seven{
+    background: url(../../assets/images/evqutu7jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.eight{
+    background: url(../../assets/images/evqutu8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.nine{
+    background: url(../../assets/images/evqutu9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.ten{
+    background: url(../../assets/images/evqutu10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.eleven{
+    background: url(../../assets/images/evqutu11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.standart-list .box-container .evqutu.twelve{
+    background: url(../../assets/images/evqutu12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .standart-list h1{
+        font-size: 3.5rem;
+        color:#AC835D ;
+        font-weight: 400;
+    }
+    .standart-list .box-container .evqutu{
+        min-width: 30rem;
+        border-radius: 1rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        background-color:#fff ;
+        transition: all .5s ease-out;
+        cursor: pointer;
+        transition: all .5s ease-out;
+    }
+}

@@ -1,0 +1,72 @@
+.coming{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/images/lyn2.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 2rem;
+}
+:root {
+    --main-color: #AC835D;
+    --white-color: #f9f1ec;
+}
+
+.coming h1{
+    font-size: 7rem;
+    color: #f9f1ec;
+    font-weight: 600;
+
+}
+.coming .days{
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+}
+.coming .days p{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f9f1ec;
+}
+@media(max-width:1100px){
+    .coming h1{
+        font-size: 5rem;
+        color: #f9f1ec;
+        font-weight: 600;
+    
+    }
+    .coming .days{
+        margin-top: 5rem;
+        display: flex;
+        gap: 2rem;
+    }
+    .coming .days p{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #f9f1ec;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .coming h1{
+        font-size: 4rem;
+        color: #f9f1ec;
+        font-weight: 600;
+    
+    }
+    .coming .days{
+        margin-top: 5rem;
+        display: flex;
+        gap: 2rem;
+    }
+    .coming .days p{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #f9f1ec;
+        text-align: center;
+    }
+}

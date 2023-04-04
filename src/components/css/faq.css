@@ -1,0 +1,95 @@
+.faq{
+    min-height: 80vh;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+:root{
+    --main-color:#AC835D;
+    --white-color:#f9f1ec;
+  }
+.faq h1{
+    color: #AC835D;
+    font-size: 6rem;
+    font-weight: 500;
+}
+.faq .faq-table{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.faq .faq-table .sual{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80rem;
+    padding: 1.5rem;
+    border: 1px solid #ac835d5e;
+    transition: all .5s ease-out;
+}
+.faq .faq-table .sual i{
+    transition: all .6s ease;
+}
+.faq .faq-table .sual:hover i{
+    transform: rotate(180deg);
+}
+.faq .sual .top-side{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.faq .sual .top-side i{
+    color: #AC835D;
+}
+.faq .sual .top-side h3.active{
+    color: #AC835D;
+}
+
+.faq .sual .bottom-side{
+    font-size: 1.6rem;
+    color: #f9f1ec93;
+}
+@media(max-width:856px){
+    .faq h1{
+        color: #AC835D;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .faq .faq-table .sual{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 45rem;
+        padding: 1.5rem;
+        border: 1px solid #ac835d5e;
+        transition: all .5s ease-out;
+    }
+    
+}
+@media(max-width:768px){
+    .faq h1{
+        color: #AC835D;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .faq .faq-table .sual{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 30rem;
+        padding: 1.5rem;
+        border: 1px solid #ac835d5e;
+        transition: all .5s ease-out;
+    }
+    .faq .sual .top-side{
+        font-size: 1.6rem;
+    }
+    .faq .sual .bottom-side{
+        font-size: 1.3rem;
+        color: #f9f1ec93;
+    }
+}

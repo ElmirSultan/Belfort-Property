@@ -1,0 +1,115 @@
+.mortrage{
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.mortrage p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.mortrage h1{
+    color: #AC835D;
+    font-weight: 200;
+    font-size: 4rem;
+
+}
+.mortrage .box-container{
+    display: flex;
+    margin-top: 6rem;
+}
+.mortrage .box-container .left-side{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0.5rem;
+    gap: 7rem;
+}
+.mortrage .box-container .right-side{
+    flex: 1;
+    background-color: #f9f1ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #000;
+    padding: 2rem 0.5rem;
+    border-radius: 2rem;
+}
+.mortrage .box-container .left-side .box{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+.mortrage .box-container .left-side .box p{
+    font-size: 2rem;
+    color: #f9f1ec;
+}
+.mortrage .ust-teref{
+    display: flex;
+    justify-content: space-between;
+}
+.mortrage .box-container .left-side .box input[type=range]{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    
+    
+}
+.mortrage .box-container .left-side .box input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 15px #555;
+  transition: background .3s ease-in-out;
+
+}
+.mortrage .box-container .left-side .box input[type=range]::-webkit-slider-runnable-track{
+    background-color: #AC835D;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+.mortrage .box-container .left-side .box span{
+    font-size: 2rem;
+}
+.mortrage .box-container .right-side img{
+    max-width: 30rem;
+    mix-blend-mode: darken;
+}
+.mortrage .right-side h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.mortrage .right-side p{
+    font-size: 4rem;
+    font-weight: 600;
+}
+@media(max-width:930px){
+    .mortrage .box-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .mortrage .box-container .left-side .box{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+    }
+    
+}
+@media(max-width:768px){
+    .mortrage .box-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+}

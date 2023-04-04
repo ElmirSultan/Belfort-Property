@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374083/bina1_sr1msa.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "80.000 ₼",
+        "aboutOfBuilding":" Bina / 3 otaq / 100m2"
+    },
+    {
+        "id":2,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374084/bina2_uuqnjo.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "120.000 ₼",
+        "aboutOfBuilding":" Bina / 4 otaq / 110m2"
+    },
+    {
+        "id":3,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374084/bina3_emmrqo.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "165.000 ₼",
+        "aboutOfBuilding":" Bina / 5 otaq / 130m2"
+    },
+    {
+        "id":4,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374083/bina1_sr1msa.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "80.000 ₼",
+        "aboutOfBuilding":" Bina / 3 otaq / 100m2"
+    },
+    {
+        "id":5,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374084/bina2_uuqnjo.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "120.000 ₼",
+        "aboutOfBuilding":" Bina / 4 otaq / 110m2"
+    },
+    {
+        "id":6,
+        "photoOfBuilding": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1678374084/bina3_emmrqo.jpg",
+        "nameOfBuilding": "Dəbdəbəli Dizayn, Bakı",
+        "priceOfBuilding": "165.000 ₼",
+        "aboutOfBuilding":" Bina / 5 otaq / 130m2"
+    }
+]

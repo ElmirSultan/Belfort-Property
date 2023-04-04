@@ -1,0 +1,53 @@
+[
+    {
+        "id":1,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316224/mic_qcc5uv.png",
+        "deviceName":"Səs Meneceri",
+        "deviceContent":"İstədiyiniz an evinizdə səs vasitəsi ilə əlaqə istədiklərinizi etmək dahada asan"
+    },
+    {
+        "id":2,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316224/controlpanel_bmqwcq.png",
+        "deviceName":"Kontrol Paneli",
+        "deviceContent":"Ağıllı cihazlardan istifadəni istədiyiniz kimi dəyişdirə bilərsiniz"
+    },
+    {
+        "id":3,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316224/camera_q9pqxn.png",
+        "deviceName":"Güvənlik",
+        "deviceContent":"Güvənliyiniz üçün ev yüksək texnologiyalara sahib kameralarla təchiz olunmuşdur"
+    },
+    {
+        "id":4,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316225/wifi_hgzxoj.png",
+        "deviceName":"Wi-Fi, Internet",
+        "deviceContent":"Evinizin hər yanında yüksək sürətə malik internet şəbəkəsi əldə bilərsiniz"
+    },
+    {
+        "id":5,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316224/light_awawvw.png",
+        "deviceName":"İşıqlaqndırma",
+        "deviceContent":"Mükəmməl işıqlandırma avadanlıqları ilə təmin olunmuşdur"
+    },
+    {
+        "id":6,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679316224/temp_chxr70.png",
+        "deviceName":"Temperatur",
+        "deviceContent":"Cihazlar vasitəsi ilə evinizi istədiyiniz dərəcəyə çevirə bilərsiniz"
+    },
+    {
+        "id":7,
+        "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679412475/construction_nhm65k.png",
+        "deviceName":"Tikinti",
+        "deviceContent":"Evlərin xarici və daxili təmiri,tikinitisi yüksək səviyyəli memarlar tərəfindən tikilmişdir."
+    },
+    {
+        
+            "id":8,
+            "devicePhoto":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679412475/energy_j38bsl.png",
+            "deviceName":"Enerjiyə qənaət",
+            "deviceContent":"Evin mövcud avadanlıqları və cihazları enerjiyə qənaət rejiminə xidmıt edir."
+        
+    }
+
+]

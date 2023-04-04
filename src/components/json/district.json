@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "districtName":"Q1",
+        "sahe":"114.55M2",
+        "certyoj": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1679489984/simplex_kj9k25.png",
+        "otaqSayi": "2 otaq",
+        "mertebe":"4-cü mərtəbə",
+        "tip":"Eyvan",
+        "qiymet":"₼682,900"
+    },
+    {
+        "id":2,
+        "districtName":"Q2",
+        "sahe":"88.45M2",
+        "certyoj": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1679489983/dupleks_czinvz.png",
+        "otaqSayi": "3 otaq",
+        "mertebe":"2-ci mərtəbə",
+        "tip":"Təbiət mənzərəli",
+        "qiymet":"₼375,200"
+    },
+    {
+        "id":3,
+        "districtName":"Q3",
+        "sahe":"145.65M2",
+        "certyoj": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1679489984/apartment_pid3oc.png",
+        "otaqSayi": "3 otaq",
+        "mertebe":"12-ci mərtəbə",
+        "tip":"Eyvan",
+        "qiymet":"₼500,200"
+    },
+    {
+        "id":4,
+        "districtName":"Q4",
+        "sahe":"80M2",
+        "certyoj": "https://res.cloudinary.com/dxhdjso8d/image/upload/v1679489984/penthaus_qluaxv.png",
+        "otaqSayi": "1 otaq",
+        "mertebe":"2-ci mərtəbə",
+        "tip":"Park mənzərəli",
+        "qiymet":"₼245,200"
+    }
+    
+]

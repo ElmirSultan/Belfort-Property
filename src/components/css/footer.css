@@ -1,0 +1,136 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #aaaaaa44;
+    padding-top: 3rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+footer .contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+footer .contact-info p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+footer .contact-info a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #AC835D;
+    display: flex;
+    gap: 1rem;
+}
+footer .unvanlar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+footer .unvanlar div{
+    display: flex;
+    flex-direction: column;
+}
+footer .unvanlar p{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+footer .unvanlar span{
+
+    color: #aaa;
+    font-size: 2rem;
+}
+footer .subscribe{
+    display: flex;
+    flex-direction: column;
+}
+footer .subscribe p{
+    font-size: 2rem;
+}
+.footer .subscribe button{
+    max-width: 10rem;
+}
+footer .subscribe-input{
+    display: flex;
+     gap: 1rem;
+}
+footer .subscribe-input input{
+    border: 1px solid #AC835D;
+    color: #AC835D;
+    font-size: 2rem;
+    background-color: black;
+    padding: 1rem;
+    outline: none;
+}
+footer .subscribe-input button{
+    background-color: #AC835D;
+    color: #fff;
+    font-size: 1.6rem;
+    border: none;
+    padding: 1rem 1.5rem;
+}
+footer .subscribe-input button i{
+    width: 100%;
+    font-size: 2rem;
+}
+footer .copyright{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+}
+footer .copyright span{
+    font-size: 1.6rem;
+    color:rgb(189, 181, 181);
+}
+footer .copyright .footerLogolar{
+    display: flex;
+    gap: 2rem;
+}
+footer .copyright .footerLogolar a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #AC835D;
+}
+@media(max-width:1122px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        max-width: 1400px;
+    }
+    footer .copyright{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 8rem;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        max-width: 1400px;
+    }
+    footer .copyright{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 8rem;
+        align-items: center;
+    }
+}

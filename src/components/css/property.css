@@ -1,0 +1,433 @@
+:root{
+    --main-color:#AC835D;
+  }
+.swiperhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    object-fit: cover;
+    overflow: hidden;
+}
+.swiperhome .gorunen-ust-teref{
+    transition: all .5s ease;
+    object-fit: cover;
+}
+.swiperhome .gorunen-ust-teref img {
+    width: 100%;
+    transition: all .5s ease-out;
+}
+
+.swiperhome .gizli-alt-teref {
+    width: 100%;
+    height: 20rem;
+    background-color: #f9f1ec;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    transform: translate(0%,0%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+.swiperhome:hover .gorunen-ust-teref{
+    opacity: .7;
+}
+.swiperhome:hover .gorunen-ust-teref img{
+    transform: scale(1.1);
+}
+.swiperhome:hover .gizli-alt-teref {
+    opacity: 1;
+}
+
+.swiperhome .gizli-alt-teref .bina-qiymeti {
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+@media(max-width:1000px){
+    .swiperhome .gizli-alt-teref {
+        width: 100%;
+        height: 10rem;
+        background-color: #f9f1ec;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0%,0%);
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    
+    }
+}
+@media(max-width:768px){
+    .swiperhome .gizli-alt-teref{
+        display: none;
+    }
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.about-us p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.about-us h3{
+    color: var(--main-color);
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.about-us .comment-about{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.about-us .comment-about img{
+    width: 100%;
+}
+.about-us .comment-about .imza{
+    max-width: 15rem;
+}
+.about-us .comment-about p{
+    color: #f9f1ec;
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+@media(max-width:768px){
+    .about-us p{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .about-us h3{
+        color: var(--main-color);
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+    .about-us .comment-about img{
+        width: 100%;
+    }
+    .about-us .comment-about p{
+        color: #f9f1ec;
+        font-weight: 100;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
+.sehife-uc {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 7rem;
+}
+.sehife-uc .box-container{
+    display: flex;
+    
+}
+.sehife-uc .box-container .left-side{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+    background-color: #f9f1ec;
+    padding: 2rem 8rem 5rem 8rem;
+}
+.sehife-uc h1{
+    font-size: 4rem;
+    margin-top: 3rem;
+    
+    font-weight: 500;
+    color: #AC835D;
+}
+.sehife-uc .left-side p{
+    font-size: 2rem;
+    color: #474646;
+}
+.sehife-uc .left-side p::first-letter{
+    font-size: 5rem;
+    color: #AC835D;
+    font-weight: 700;
+}
+.sehife-uc .box-container .right-side{
+    flex-basis: 50%;
+    background: url(../../assets/images/swiperslide2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width:1217px){
+    .sehife-uc .box-container .right-side{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .sehife-uc .box-container .right-side{
+        display: none;
+    }
+    .sehife-uc h1{
+        font-size: 2.3rem;
+        margin-top: 3rem;
+        font-weight: 500;
+        color: #AC835D;
+    }
+    .sehife-uc .box-container .left-side{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex: 1;
+        background-color: #f9f1ec;
+        padding: 2rem 5rem 5rem 5rem;
+    }
+    .sehife-uc .left-side p{
+        font-size: 1.3rem;
+        color: #474646;
+    }
+    .sehife-uc .left-side p::first-letter{
+        font-size: 3rem;
+        color: #AC835D;
+        font-weight: 700;
+    }
+}
+.serfeli-teklifler {
+     max-width: 1240px;
+     margin: 0 auto;
+     padding: 0 2rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     height: 80vh;
+     margin-top: 2rem;
+
+}
+.serfeli-teklifler h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #AC835D;
+    margin-bottom: 4rem;
+}
+.serfeli-teklifler .building-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.serfeli-teklifler .building-box .building-names{
+    padding-left: 2rem;
+    text-align: left;
+}
+.serfeli-teklifler .building-box .building-names li{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #AC835D;
+}
+.serfeli-teklifler .building-box .building-images{
+    max-width :30rem; 
+}
+.serfeli-teklifler .building-box .building-images img{
+    width: 100%;
+    height: 25rem;
+}
+.serfeli-teklifler .building-box .building-about{
+    text-align: left;
+}
+.serfeli-teklifler .building-box .building-about p{
+   font-size: 2.2rem;
+}
+
+@media(max-width:768px){
+    .serfeli-teklifler{
+        margin-top: 7rem;
+    }
+    .serfeli-teklifler .building-box .building-names li{
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: #AC835D;
+    }
+    .serfeli-teklifler h1{
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: #AC835D;
+        margin-bottom: 4rem;
+    }
+    .serfeli-teklifler .building-box{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .serfeli-teklifler .building-box .building-about p{
+        font-size: 1.6rem;
+     }
+}
+.sehife-bes{
+    max-width: 1240px;
+    margin: 7rem auto;
+}
+.sehife-bes .box-container{
+    display: flex;
+    gap: 5rem;
+}
+.sehife-bes .box-container .left-side{
+    display: flex;
+    flex-basis: 50%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+.sehife-bes .box-container .left-side img{
+    width: 50%;
+}
+.sehife-bes .box-container .right-side {
+    flex: 1;
+    margin-top: 4rem;
+}
+.sehife-bes .box-container .right-side p{
+    font-size: 3rem;
+    color: #AC835D;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+    .sehife-bes .box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        text-align: center;
+    }
+    .sehife-bes .box-container .right-side p{
+        font-size: 2rem;
+        color: #AC835D;
+        font-weight: 400;
+    }
+}
+.teyinat{
+    max-width: 1240px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.teyinat p{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+.teyinat h1{
+    color: #AC835D;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.teyinat .inputlar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.teyinat .inputlar .left-right-one,.left-right-two{
+    display: flex;
+    gap: 1rem;
+}
+.teyinat .inputlar input{
+    width:30rem ;
+    border: 1px solid #f9f1ec;
+    outline: none;
+    background-color: inherit;
+    color: #f9f1ec;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.teyinat .inputlar select{
+    width: 50%;
+    border: 1px solid #f9f1ec;
+    outline: none;
+    background-color: inherit;
+    color: #f9f1ec;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.teyinat .inputlar select option{
+    background-color: black;
+}
+.teyinat textarea{
+    background-color: inherit;
+    color: #f9f1ec;
+    padding: 1rem;
+    border: 1px solid #f9f1ec;
+    outline: none;
+    font-size: 1.6rem;
+}
+.teyinat button{
+    font-size: 1.6rem;
+    color: #f9f1ec;
+    background-color: #AC835D;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    transition: all .5s ease;
+}
+.teyinat button:hover{
+    box-shadow: 0px 0px 1.5rem #f9f1ec;
+}
+
+@media(max-width:768px){
+    .teyinat h1{
+        color: #AC835D;
+        font-size: 2.3rem;
+        margin-bottom: 3rem;
+    } 
+    .teyinat .inputlar input{
+        width:25rem ;
+        border: 1px solid #f9f1ec;
+        outline: none;
+        background-color: inherit;
+        color: #f9f1ec;
+        padding: 1rem;
+        font-size: 1.6rem;
+    }
+    .teyinat .inputlar .left-right-one,.left-right-two{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .teyinat .inputlar select{
+        display: none;
+    }
+    .teyinat .inputlar select option{
+        background-color: black;
+    }
+    .teyinat textarea{
+        background-color: inherit;
+        color: #f9f1ec;
+        padding: 1rem;
+        border: 1px solid #f9f1ec;
+        outline: none;
+        font-size: 1.3rem;
+    }
+}

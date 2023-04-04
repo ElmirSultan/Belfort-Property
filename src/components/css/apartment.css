@@ -1,0 +1,35 @@
+:root{
+    --main-color:#AC835D;
+    --white-color:#f9f1ec;
+  }
+.apartment-list {
+    max-width: 1240px;
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-top: 2rem;
+}
+.apartment-list .first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.apartment-list .first h1{
+    color: #AC835D;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.apartment-list .first .apartment-qutular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media(max-width:768px){
+    .apartment-list .first h1{
+        font-size: 3rem;
+    }
+}
+

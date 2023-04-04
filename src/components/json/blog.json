@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil2_vgf8wj.jpg",
+        "category":"hadise",
+        "blogAd":"Ağıllı yaşam tərzi",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":2,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil1_adxt2j.jpg",
+        "category":"evler",
+        "blogAd":"Ailə üçün əlverişli imkanda evlər",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":3,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil1_adxt2j.jpg",
+        "category":"hadise",
+        "blogAd":"Müasir mənzil dizaynları",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":4,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil1_adxt2j.jpg",
+        "category":"xeberler",
+        "blogAd":"Ev aldıqda ehtiyaclarınızı və imkanlarınızı necə balanslaşdıra bilərsiniz",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":5,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil2_vgf8wj.jpg",
+        "category":"dizayn",
+        "blogAd":"Müasir dizayn",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":6,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil1_adxt2j.jpg",
+        "category":"dizayn",
+        "blogAd":"Ağıllı yaşam tərzi",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":7,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil2_vgf8wj.jpg",
+        "category":"xeberler",
+        "blogAd":"Yeni ev necə xoşbəxtlik gətirə bilər",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    },
+    {
+        "id":8,
+        "blogShekli":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1679828349/blogshekil2_vgf8wj.jpg",
+        "category":"evler",
+        "blogAd":"Ağıllı yaşam imkanları",
+        "blogHaqqinda":"Belfort City-də ağıllı yaşam tərzi artıq mövcuddur.Ağıllı evlərin mükəmməlliyi sizi heyran edəcək."
+    }
+]

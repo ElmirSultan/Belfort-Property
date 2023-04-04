@@ -1,0 +1,185 @@
+.welocome-apartment .slide-page{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+:root{
+    --main-color:#AC835D;
+    --white-color:#f9f1ec;
+  }
+.slide-page .mySwiper{
+    max-width: 1400px;
+}
+.slide-page img{
+    width: 100%;
+}
+.numbers-page{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.numbers-page .box-container{
+    display: flex;
+    padding: 0 2rem;
+}
+.numbers-page .box-container .left-side{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 2rem;
+}
+.numbers-page .box-container .left-side h3{
+    color: #AC835D;
+    font-size: 3rem;
+}
+.numbers-page .box-container .right-side {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.numbers-page .box-container .right-side h1{
+    font-size: 4rem;
+    color: #AC835D;
+}
+.numbers-page .box-container .right-side p{
+    font-size: 2rem;
+    color: #AC835D;
+}
+.numbers-page .box-container .right-side .metr{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    border-right: 1px solid #AC835D;
+}
+@media(max-width:852px){
+    .numbers-page .box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+@media(max-width:768px){
+    .numbers-page .box-container .left-side h3{
+        color: #AC835D;
+        font-size: 1.8rem;
+    }
+    .numbers-page .box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+    .numbers-page .box-container .right-side p{
+        font-size: 1.6rem;
+        color: #AC835D;
+    }
+    .numbers-page .box-container .right-side h1{
+        font-size: 2.2rem;
+        color: #AC835D;
+    }
+}
+.full-room{
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+.full-room .box-container {
+    display: flex;
+    padding: 0 2rem;
+}
+.full-room .box-container .left-side{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.full-room .box-container .left-side h1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #AC835D;
+}
+.full-room .box-container .left-side .table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.full-room .box-container .left-side .table .result{
+    display: flex;
+    max-width: 48rem;
+    justify-content: space-between;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background-color: #AC835D;
+    color: #f9f1ec;
+    padding: 0rem 1rem;
+}
+.full-room .box-container .left-side .table .row{
+    display: flex;
+    max-width: 50rem;
+    justify-content: space-between;
+}
+.full-room .box-container .left-side .table .row p{
+    font-size: 2rem;
+}
+.full-room .box-container .left-side .table .row p span{
+    color: #AC835D;
+    padding-right: 2rem;
+}
+.full-room .box-container .right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:1163px){
+    .full-room .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+@media(max-width:768px){
+    .full-room .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .full-room .box-container .left-side .table .result{
+        display: flex;
+        max-width: 38rem;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        font-weight: 700;
+        background-color: #AC835D;
+        color: #f9f1ec;
+        padding: 0rem 1rem;
+    }
+    .full-room .box-container .left-side .table .row{
+        display: flex;
+        max-width: 40rem;
+        justify-content: space-between;
+    }
+    .full-room .box-container .left-side .table .row p{
+        font-size: 1.5rem;
+    }
+    .full-room .box-container .right-side{
+        flex: 1;
+        max-width: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .full-room .box-container .right-side img{
+        width: 100%;
+    }
+    
+}
